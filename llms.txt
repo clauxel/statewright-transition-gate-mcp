@@ -1,15 +1,12 @@
 # Statewright Transition Gate
 
-Statewright Transition Gate is a hosted remote MCP for Statewright.
+Statewright Transition Gate is a paid hosted remote MCP for Statewright. It exposes Streamable HTTP tool calls, bearer-token access, public server-card metadata, usage logs, and receipt-oriented JSON for AI agent workflows.
 
 Website: https://statewrightgate.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: Statewright
-Type: MCP
-Default plan: team
 MCP endpoint: https://statewrightgate.clauxel.com/mcp
 Server card: https://statewrightgate.clauxel.com/server-card.json
-Registry name: com.clauxel.statewrightgate/statewrightgate-mcp
-Tools: check_state_transition, explain_blocked_action, suggest_next_states, export_transition_receipt
+Docs: https://github.com/clauxel/statewright-transition-gate-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: Make every agent transition explicit before work continues.
+Authentication: Bearer token required for production use.
+Tools: check_state_transition, explain_blocked_action, suggest_next_states, export_transition_receipt
